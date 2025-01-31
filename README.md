@@ -18,6 +18,7 @@ A web-based quiz application built with **Next.js** and **TypeScript**. This app
 - **Programming Language**: [TypeScript](https://www.typescriptlang.org/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 - **API Integration**: Fetch API for data fetching
+- **UI Components**: ShadCN
 
 ## Screenshots
 
