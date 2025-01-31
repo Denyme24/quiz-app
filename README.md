@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Quiz App
+
+A web-based quiz application built with **Next.js** and **TypeScript**. This app fetches quiz data from an external API, presents it in an interactive format, and provides a summary of results upon completion.
+
+## Features
+
+- **Fetch Quiz Data**: Fetches quiz questions and answers from an external API.
+- **Interactive Quiz**:
+  - Displays one question at a time with multiple-choice answers.
+  - Allows users to select an answer and proceed to the next question.
+- **Score Calculation**: Tracks the user's score based on correct answers.
+- **Result Summary**: Displays the final score and the total number of questions at the end of the quiz.
+- **Responsive Design**: Built with Tailwind CSS for a clean and responsive user interface.
+
+## Tech Stack
+
+- **Frontend Framework**: [Next.js](https://nextjs.org/) (App Router)
+- **Programming Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **API Integration**: Fetch API for data fetching
+
+## Screenshots
+
+### Home Page
+
+![Quiz Page](./public/home_page.png) <!-- Add a screenshot of the quiz page -->
+
+### Quiz Page
+
+![Quiz Page](./public/quiz.png) <!-- Add a screenshot of the quiz page -->
+
+### Results Page
+
+![Results Page](./public/final_score.png) <!-- Add a screenshot of the results page -->
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to run the project locally:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Node.js (v18 or higher)
+- npm or yarn
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Denyme24/quiz-app.git
+   cd quiz-app
+   ```

@@ -146,7 +146,10 @@ export default function QuizPage() {
                 asChild
                 className="px-6 py-6 text-lg mt-10 font-semibold bg-purple-600 hover:bg-purple-700 text-white rounded-full transition duration-300 ease-in-out transform hover:scale-105"
               >
-                <Link href="/" className="inline-flex items-center">
+                <Link
+                  href="/"
+                  className="inline-flex items-center justify-center gap-3"
+                >
                   <ArrowLeft className="ml-2 h-5 w-5" />
                   Back To Home
                 </Link>
